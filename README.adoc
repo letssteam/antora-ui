@@ -1,4 +1,4 @@
-= Antora Default UI
+= Antora UI for the Let's STEAM Project
 // Settings:
 :experimental:
 :hide-uri-scheme:
@@ -18,17 +18,12 @@
 :url-nvm: https://github.com/creationix/nvm
 :url-nvm-install: {url-nvm}#installation
 
-image:{img-ci-status}[CI Status (GitLab CI), link={url-ci-pipelines}]
+Based on https://gitlab.com/antora/antora-ui-default
 
-This project is an archetype that demonstrates how to produce a UI bundle that can be used by {url-antora}[Antora] to generated a documentation site.
-You can see a preview of the default UI at {url-preview}.
 
-While the default UI is ready to be used with Antora, the intent is that you'll fork it and customize it for your own needs.
-It's intentionally minimalistic so as to give you a good starting point without requiring too much effort to customize.
+== Use the Let's STEAM UI
 
-== Use the Default UI
-
-If you want to simply use the default UI for your Antora-generated site, add the following UI configuration to your playbook:
+If you want to simply use the UI for your Antora-generated site, add the following UI configuration to your playbook:
 
 [source,yaml]
 ----
